@@ -61,12 +61,27 @@ let messages = [
     "¡Sigan al canal y activen la campanita, mis amores! 🔔",
 ];
 ```
-📜 Licencia
-MIT License. Uso libre y gratuito, pero el autor no se hace responsable por mal uso del script.
 
-❤️ Agradecimientos
-#### Este script está basado en ideas comunitarias y adaptado para usarse en Kick. Desarrollado y mantenido por:
+### ⏱ Cambiar intervalo de tiempo
+#### El envío automático de mensajes se controla en esta parte:
 
-#### Fernando Gonzales P.
+```javascript
+let interval = getRandomInt(25000, 80000); // entre 25 y 80 segundos
+```
+
+Puedes reducir el tiempo así (ejemplo, entre 5 y 10 segundos):
+
+```javascript
+let interval = getRandomInt(5000, 10000);
+```
+
+##### ⚠️ Advertencia: No reduzcas el tiempo demasiado. Si envías mensajes demasiado rápido, Kick podría bloquearlos o silenciarte.
+
+### 📜 Licencia
+#####MIT License. Uso libre y gratuito, pero el autor no se hace responsable por mal uso del script.
+
+### ❤️ Agradecimientos
+##### Este script está basado en ideas comunitarias y adaptado para usarse en Kick. Desarrollado y mantenido por:
+##### Fernando Gonzales P.
 
 
