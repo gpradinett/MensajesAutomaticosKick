@@ -78,10 +78,10 @@ let interval = getRandomInt(5000, 10000);
 ##### ⚠️ Advertencia: No reduzcas el tiempo demasiado. Si envías mensajes demasiado rápido, Kick podría bloquearlos o silenciarte.
 
 ### 📜 Licencia
-#####MIT License. Uso libre y gratuito, pero el autor no se hace responsable por mal uso del script.
+##### #MIT License. Uso libre y gratuito, pero el autor no se hace responsable por mal uso del script.
 
 ### ❤️ Agradecimientos
-##### Este script está basado en ideas comunitarias y adaptado para usarse en Kick. Desarrollado y mantenido por:
-##### Fernando Gonzales P.
+###### Este script está basado en ideas comunitarias y adaptado para usarse en Kick. Desarrollado y mantenido por:
+###### Fernando Gonzales P.
 
 
