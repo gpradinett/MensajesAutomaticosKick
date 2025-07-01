@@ -90,7 +90,7 @@ let interval = getRandomInt(5000, 10000);
 
 ### 🧠 Notas
 ###### Recomendado para entretenimiento y pruebas. No se recomienda abusar de los mensajes automáticos.
-######Compatible con todos los canales de Kick, siempre que el chat esté habilitado.
+###### Compatible con todos los canales de Kick, siempre que el chat esté habilitado.
 
 ### 📜 Licencia
 ###### MIT License. Uso libre y gratuito, pero el autor no se hace responsable por mal uso del script.
