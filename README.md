@@ -1,4 +1,4 @@
-# 🤖 Bot de Mensajes Automáticos para Kick.com
+# 🤖 Kick AutoChatBot
 
 Este script permite enviar mensajes automáticos de forma periódica en los chats de Kick.com, ideal para interactuar con tu audiencia durante un stream. También permite personalizar mensajes y aprovechar comandos de voz como `!Jacinta` para activar el TTS (texto a voz) del canal.
 
@@ -9,13 +9,24 @@ Este script permite enviar mensajes automáticos de forma periódica en los chat
 
 ---
 
-## ⚙️ Características
+## ✨ ¿Qué hace este bot?
 
 - ✅ Envío de mensajes automáticos al chat de Kick.
 - 🔄 Mensajes aleatorios desde una lista predefinida.
 - ⏱ Intervalos aleatorios entre 25 y 80 segundos (ajustable).
 - 🎤 Compatible con TTS mediante comandos como `!Jacinta`.
 - 💬 Emula comportamiento humano (escritura + enter).
+
+---
+
+## 📦 Contenido
+
+El proyecto incluye **dos scripts**:
+
+| Versión             | Archivo                           | Autor                    | Descripción                                                                 |
+|---------------------|-----------------------------------|--------------------------|-----------------------------------------------------------------------------|
+| 🟢 Versión Simple    | `kick-autochat-original.user.js` | Fernando Gonzales P.     | Versión básica y funcional para pruebas rápidas.                           |
+| 🟢 Versión Mejorada  | `kick-autochat-optimizado.user.js` | Fernando Gonzales P.     | Incluye mejoras de compatibilidad, código más limpio y mensajes personalizables. |
 
 ---
 
@@ -76,6 +87,10 @@ let interval = getRandomInt(5000, 10000);
 ```
 
 ##### ⚠️ Advertencia: No reduzcas el tiempo demasiado. Si envías mensajes demasiado rápido, Kick podría bloquearlos o silenciarte.
+
+### 🧠 Notas
+###### Recomendado para entretenimiento y pruebas. No se recomienda abusar de los mensajes automáticos.
+######Compatible con todos los canales de Kick, siempre que el chat esté habilitado.
 
 ### 📜 Licencia
 ###### MIT License. Uso libre y gratuito, pero el autor no se hace responsable por mal uso del script.
